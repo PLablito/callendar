@@ -1,0 +1,24 @@
+{
+  "name": "callendar-package",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "PLablito"
+  },
+  "author": "PLablito",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-postcss": "^7.0.0",
+    "gulp-sass": "^3.1.0"
+  }
+}

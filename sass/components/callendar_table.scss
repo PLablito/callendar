@@ -1,0 +1,22 @@
+.callendar_table {
+  td {
+    width: 43px;
+    height: 43px;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  td:hover {
+    border: 1px solid blue;
+  }
+
+  th {
+    background-color: lightgray;
+    width: 43px;
+    height: 43px;
+    text-align: center;
+    vertical-align: middle;
+  }
+}
