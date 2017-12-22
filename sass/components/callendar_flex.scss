@@ -1,0 +1,24 @@
+.callendar_flex {
+display: flex;
+width: 210px;
+flex-wrap: wrap;
+margin-top: 100px;
+border: 1px solid gray;
+}
+
+.callendar_flex button {
+  height: 30px;
+  width: 30px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  background: none;
+}
+.callendar_flex time {
+  justify-content: center;
+}
+
+.callendar_flex button:hover {
+  background-color: lightgray;
+  border-radius: none;
+}
