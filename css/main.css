@@ -63,25 +63,25 @@ table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 210px;
+  width: 280px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-top: 100px;
   border: 1px solid gray; }
-
-.callendar_flex button {
-  height: 30px;
-  width: 30px;
-  border: 1px solid transparent;
-  border-radius: 50%;
-  cursor: pointer;
-  background: none; }
-
-.callendar_flex time {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
-.callendar_flex button:hover {
-  background-color: lightgray;
-  border-radius: none; }
+  .callendar_flex button {
+    height: 40px;
+    width: 40px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    background: none; }
+  .callendar_flex time {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .callendar_flex button:hover {
+    background-color: lightgray;
+    border-radius: none;
+    color: red;
+    font-weight: 600;
+    font-size: 1.1em; }
